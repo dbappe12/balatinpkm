@@ -197,5 +197,7 @@ return [
     */
 
     'same_site' => 'lax',
+    'lifetime' => env('SESSION_LIFETIME', 10),
+    'expire_on_close' => true,
 
 ];

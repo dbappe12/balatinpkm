@@ -322,7 +322,12 @@ $currentMonth = Carbon::now();
                                    </div>
                                    <!-- <br>
                                    <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100068441723342" data-tabs="timeline" data-width="50" data-height="50" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100068441723342" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100068441723342">Batanghari Jambi</a></blockquote></div> -->
-                                
+                        <!-- Foto Kepala and Caption -->
+                        <div class="kepala-profile" style="text-align: center; margin-top: 20px;">
+                            <img src="{{ asset('img/kepala.jpg') }}" alt="Kepala {{config('app.nama_pic')}}" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #01805E;">
+                            <p style="margin-top: 10px; font-size: 14px; color: #fff; font-weight: 600;">XX</p>
+                            <p style="font-size: 12px; color: #ccc;">Kepala {{config('app.nama_pic')}}</p>
+                        </div>                                
                             </div>
                         </div>
                     </div>
